@@ -1,1 +1,9 @@
-h1 { color: pink; font-size: 25px; font-family: "Times New Roman", Times, serif; }
+body {
+  background-color: rgb (255, 255, 255);;
+}
+
+h1 { 
+  color: pink;
+  font-size: 25px; 
+  font-family: "Times New Roman", Times, serif; 
+}
