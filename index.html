@@ -3,6 +3,15 @@
   <head>
    <link rel= "stylesheet" href="index.css" type="text/css" />
    <title>sykiee</title>
+   <title> Animated Web page title </title>
+<script type="text/javascript">
+var titleText = document.title;
+function titleMarquee() {
+ titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
+ document.title = titleText;
+ setTimeout("titleMarquee()", 450);
+ }
+</script>
   </head>
   <body>
    <h1>trash masta</h1>
