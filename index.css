@@ -2,3 +2,9 @@ body {
   background: #ffe4e1;
   background-size: cover;
 }
+
+.image {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
