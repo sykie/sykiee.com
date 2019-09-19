@@ -5,7 +5,6 @@ body {
 
 .image {
 position: absolute;
-padding:1px;
 border:1px solid #021a40;
 box-shadow: 5px 5px 5px #000000;
 left: 50%;
