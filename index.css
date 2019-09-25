@@ -3,11 +3,12 @@ body {
   background-size: cover;
 }
 
-.sykiee{
+.sykiee {
   text-align: center;
   color: #ffffff;
   text-transformation: lowercase;
   text-shadow: 3px 2px #000000;
+}
   
 .image {
   position: absolute;
