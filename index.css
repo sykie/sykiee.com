@@ -3,11 +3,14 @@ body {
   background-size: cover;
 }
 
+.sykiee{
+  text-align: center;
+  
 .image {
-position: absolute;
-border:1px solid #ffffff;
-box-shadow: 5px 5px #000000;
-left: 50%;
-top: 50%;
-transform: translate(-50%, -50%);
+  position: absolute;
+  border:1px solid #ffffff;
+  box-shadow: 5px 5px #000000;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
