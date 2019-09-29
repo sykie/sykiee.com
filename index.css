@@ -14,10 +14,11 @@ h1.sykiee {
 }
 
 .image1 {
-  border: 3px #fff;
-  position: absolute;
-	left: 70%;
-	top: 50%;
-  transform: translate(-50%, -50%);
+border: 3px #ffffff;
+position: absolute;
+left: 70%;
+top: 50%;
+transform: translate(-50%, -50%);
+shadow: 4px 3px #000000;
 
 }
