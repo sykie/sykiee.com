@@ -4,7 +4,7 @@ body {
 }
 
 h1.sykiee {
-  text-align: center;
+  diplay: top middle;
   color: #ffffff;
   text-transformation: lowercase;
   text-shadow: 5px 4px #000000;
@@ -12,5 +12,8 @@ h1.sykiee {
   top: 10%;
   font-size: 50px;
 }
+
+.image1 {
+  border: 
 
 }
