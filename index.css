@@ -6,17 +6,18 @@ body {
 .sykiee {
   display: top middle;
   color: #ffffff;
-  text-transformation: lowercase;
+  position: absolute;
+  left: 41%;
+  top: 15%;
   text-shadow: 4px 4px #000000;
-  font-size: 70px;
+  font-size: 50px;
 }
 
-.image1 {
-display: middle;
-border: 2px #ffffff;
-position: absolute;
-left: 70%;
+.tyler {
+border: 1px solid #ffffff;
+position: fixed;
+left: 50%;
 top: 50%;
 transform: translate(-50%, -50%);
-shadow: 4px 3px #000000;
+box-shadow: 4px 4px #000000;
 }
