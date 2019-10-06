@@ -1,22 +1,22 @@
 body {
-  background: #ffe4e1;
+  background: #800000;
   background-size: cover;
 }
 
 .sykiee {
   color: #ffffff;
-  -webkit-text-stroke: 1px #000000;
+  -webkit-text-stroke: 1.5px #000000;
   position: absolute;
   left: 50%;
-  top: -6%;
+  top: -3%;
   transform: translate(-50%, -50%);
   font-size: 30px;
   text-shadow: 5px 5px #000000;
 }
 
-.tyler {
+.carti {
   position: fixed;
-  border: 1px solid #000000;
+  border: 2px solid #ffffff;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
