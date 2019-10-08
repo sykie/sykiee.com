@@ -1,7 +1,6 @@
 @font-face { font-family: Monoton; src: url('fonts/Monoton-Regular.ttf'); }
 @font-face { font-family: Unifraktur; src: url('fonts/UnifrakturMaguntia.ttf'); }
 
-
 body {
   background: #800000;
   background-size: cover;
@@ -10,7 +9,7 @@ body {
 .sykiee {
   color: #ffffff;
   position: absolute;
-  font-family: Monoton;
+  font-family: Unifraktur;
   left: 50%;
   top: -3%;
   transform: translate(-50%, -50%);
@@ -25,4 +24,21 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   line-height: 0;
+}
+
+.links {
+color: #ffffff;
+font-size: 150%;
+position: absolute;
+font-family: Unifraktur;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+word-spacing: 20px;
+text-shadow:
+4px 4px 0 #000000,
+3px 3px 0 #000000,
+2px 2px 0 #000000,
+1px 1px 0 #000000,
+0.5px 0.5px 0 #000000;
 }
