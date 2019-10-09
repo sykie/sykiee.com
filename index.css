@@ -4,7 +4,7 @@
 
 body {
   background-image: url("images/stream.gif");
-  background-size: 1822px 880px;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
