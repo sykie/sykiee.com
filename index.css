@@ -1,5 +1,6 @@
 @font-face { font-family: Monoton; src: url('fonts/Monoton-Regular.ttf'); }
 @font-face { font-family: Unifraktur; src: url('fonts/UnifrakturMaguntia.ttf'); }
+@font-face { font-family: Olde English; src: url('fonts/Olde English Regular.ttf')}
 
 body {
   background: #800000;
@@ -9,11 +10,11 @@ body {
 .sykiee {
   color: #ffffff;
   position: absolute;
-  font-family: Unifraktur;
+  font-family: Olde English;
   left: 50%;
-  top: -3%;
+  top: -5%;
   transform: translate(-50%, -50%);
-  font-size: 50px;
+  font-size: 80px;
   text-shadow: 5px 5px #000000;
 }
 
@@ -26,19 +27,24 @@ body {
   line-height: 0;
 }
 
+a:link, a:visited{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #bbbbbb;
+}
+
 .links {
 color: #ffffff;
-font-size: 150%;
+font-size: 250%;
 position: absolute;
-font-family: Unifraktur;
+font-family: Olde English;
 left: 50%;
-top: 50%;
+top: 70%;
 transform: translate(-50%, -50%);
-word-spacing: 20px;
-text-shadow:
-4px 4px 0 #000000,
-3px 3px 0 #000000,
-2px 2px 0 #000000,
-1px 1px 0 #000000,
-0.5px 0.5px 0 #000000;
+word-spacing: 30px;
+text-shadow: 4px 4px 0 #000000;
 }
