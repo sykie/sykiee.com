@@ -1,9 +1,10 @@
 @font-face { font-family: Monoton; src: url('fonts/Monoton-Regular.ttf'); }
 @font-face { font-family: Unifraktur; src: url('fonts/UnifrakturMaguntia.ttf'); }
 @font-face { font-family: Olde English; src: url('fonts/Olde English Regular.ttf')}
+@font-face { font-family: Barcode; src: url('fonts/New Barcode Font.ttf')}
 
 body {
-  background-image: url("images/stream.gif");
+  background-image: url("images/lightning.gif");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -11,22 +12,20 @@ body {
 .sykiee {
   color: #ffffff;
   position: absolute;
-  font-family: Olde English;
+  font-family: barcode;
   left: 50%;
-  top: -5%;
+  top: -15%;
   transform: translate(-50%, -50%);
   font-size: 80px;
-  text-shadow: 5px 5px #000000;
 }
 
-.carti {
+.boypablo {
   position: fixed;
   border: 2px solid #ffffff;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   line-height: 0;
-  box-shadow: 5px 5px #000000;
 }
 
 a:link, a:visited{
@@ -43,10 +42,9 @@ a:hover{
 color: #ffffff;
 font-size: 250%;
 position: absolute;
-font-family: Olde English;
 left: 50%;
 top: 80%;
 transform: translate(-50%, -50%);
 word-spacing: 30px;
-text-shadow: 4px 4px 0 #000000;
+text-shadow: 4px 4px #000000;
 }
