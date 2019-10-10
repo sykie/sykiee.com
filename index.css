@@ -39,12 +39,12 @@ a:hover{
 }
 
 .links {
-color: #ffffff;
-font-size: 250%;
-position: absolute;
-left: 50%;
-top: 80%;
-transform: translate(-50%, -50%);
-word-spacing: 30px;
-text-shadow: 4px 4px #000000;
-}
+  color: #ffffff;
+  font-size: 170%;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  word-spacing: 40px;
+  text-shadow: 2px 2px #000000;
+  }
