@@ -4,7 +4,7 @@
 @font-face { font-family: Barcode; src: url('fonts/New Barcode Font.ttf')}
 
 body {
-  background-image: url("images/lightning.gif");
+  background: #191970;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -24,6 +24,15 @@ body {
   border: 2px solid #ffffff;
   left: 50%;
   top: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 0;
+}
+
+.lightning {
+  position:fixed;
+  border: 2px solid #ffffff;
+  left: 20%;
+  top: 30%;
   transform: translate(-50%, -50%);
   line-height: 0;
 }
