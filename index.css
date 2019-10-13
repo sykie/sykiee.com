@@ -28,23 +28,24 @@ body {
   line-height: 0;
 }
 
-.lightning {
-  position:fixed;
-  border: 2px solid #ffffff;
-  left: 20%;
-  top: 30%;
+.error {
+  position: fixed;
+  border: 2px solid #000000;
+  left: 30%;
+  top: 50%;
   transform: translate(-50%, -50%);
   line-height: 0;
 }
 
-a:link, a:visited{
+a:link, a:visited {
   text-decoration: none;
   color: inherit;
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
   color: #bbbbbb;
+  animation: shake 75ms infinite;
 }
 
 .links {
