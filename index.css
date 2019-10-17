@@ -45,7 +45,6 @@ a:link, a:visited {
 a:hover {
   text-decoration: none;
   color: #bbbbbb;
-  animation: shake 75ms infinite;
 }
 
 .links {
