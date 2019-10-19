@@ -5,7 +5,7 @@
 @font-face { font-family: Pixel; src: url('fonts/VT323-Regular.ttf')}
 
 body {
-  background-image: url("images/mountains.gif");
+  background-image: url("images/waterfall.gif");
   background-size: cover;
   background-repeat: no-repeat;
 }
