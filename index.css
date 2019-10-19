@@ -12,9 +12,8 @@ body {
 .sykiee {
   color: #ffe4e1;
   position: absolute;
-  font-family: Unifraktur;
   left: 50%;
-  top: -2%;
+  top: -5%;
   transform: translate(-50%, -50%);
   font-size: 55px;
   text-shadow: 4px 4px #000000;
@@ -54,7 +53,6 @@ a:hover {
   color: #ffe4e1;
   font-size: 170%;
   position: absolute;
-  font-family: Unifraktur;
   left: 50%;
   top: 82%;
   transform: translate(-50%, -50%);
