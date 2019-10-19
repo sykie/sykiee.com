@@ -2,6 +2,7 @@
 @font-face { font-family: Unifraktur; src: url('fonts/UnifrakturMaguntia.ttf'); }
 @font-face { font-family: Olde English; src: url('fonts/Olde English Regular.ttf')}
 @font-face { font-family: Barcode; src: url('fonts/New Barcode Font.ttf')}
+@font-face { font-family: Pixel; src: url('fonts/VT323-Regular.ttf')}
 
 body {
   background-image: url("images/waterfall.gif");
@@ -12,11 +13,12 @@ body {
 .sykiee {
   color: #ffe4e1;
   position: absolute;
-  left: 50%;
-  top: -5%;
+  left: 13%;
+  font-family: Pixel;
+  top: 5.5%;
   transform: translate(-50%, -50%);
-  font-size: 55px;
-  text-shadow: 4px 4px #000000;
+  font-size: 14px;
+  text-shadow: 2px 2px #000000;
 }
 
 .supreme {
@@ -53,6 +55,7 @@ a:hover {
   color: #ffe4e1;
   font-size: 170%;
   position: absolute;
+  font-family: Pixel;
   left: 50%;
   top: 82%;
   transform: translate(-50%, -50%);
