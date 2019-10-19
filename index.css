@@ -4,7 +4,7 @@
 @font-face { font-family: Barcode; src: url('fonts/New Barcode Font.ttf')}
 
 body {
-  background: #000000;
+  background-image: url("images/waterfall.gif");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -12,36 +12,39 @@ body {
 .sykiee {
   color: #ffe4e1;
   position: absolute;
+  font-family: Unifraktur;
   left: 50%;
-  top: -6%;
+  top: -2%;
   transform: translate(-50%, -50%);
-  font-size: 80px;
+  font-size: 55px;
   text-shadow: 4px 4px #000000;
 }
 
-.boypablo {
+.supreme {
   position: fixed;
   border: 2px solid #ffffff;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   line-height: 0;
+  box-shadow: 4px 4px #000000;
 }
 
-.error {
+.supreme2 {
   position: fixed;
   border: 1px solid #ffffff;
-  left: -100%;
-  top: 20%;
+  left: -70%;
+  top: 30%;
   transform: translate(-50%, -50%);
   line-height: 0;
+  box-shadow: 4px 4px #000000;
 }
 
 a:link, a:visited {
   text-decoration: none;
   color: inherit;
 }
-
+  
 a:hover {
   text-decoration: none;
   color: #bbbbbb;
@@ -51,9 +54,10 @@ a:hover {
   color: #ffe4e1;
   font-size: 170%;
   position: absolute;
+  font-family: Unifraktur;
   left: 50%;
-  top: 80%;
+  top: 82%;
   transform: translate(-50%, -50%);
   word-spacing: 40px;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 3px 3px #000000;
   }
