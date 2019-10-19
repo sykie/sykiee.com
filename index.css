@@ -5,13 +5,13 @@
 @font-face { font-family: Pixel; src: url('fonts/VT323-Regular.ttf')}
 
 body {
-  background-image: url("images/waterfall.gif");
+  background-image: url("images/mountains.gif");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .sykiee {
-  color: #ffe4e1;
+  color: #ffffff;
   position: absolute;
   left: 13%;
   font-family: Pixel;
@@ -28,17 +28,15 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   line-height: 0;
-  box-shadow: 4px 4px #000000;
 }
 
 .supreme2 {
   position: fixed;
   border: 1px solid #ffffff;
-  left: -70%;
-  top: 30%;
+  left: 90%;
+  top: 105%;
   transform: translate(-50%, -50%);
   line-height: 0;
-  box-shadow: 4px 4px #000000;
 }
 
 a:link, a:visited {
@@ -51,14 +49,24 @@ a:hover {
   color: #bbbbbb;
 }
 
-.links {
-  color: #ffe4e1;
+.link1 {
+  color: #ffffff;
   font-size: 170%;
   position: absolute;
   font-family: Pixel;
-  left: 50%;
-  top: 82%;
+  left: 79%;
+  top: 106%;
   transform: translate(-50%, -50%);
-  word-spacing: 40px;
   text-shadow: 3px 3px #000000;
   }
+
+  .link2 {
+    color: #ffe4e1;
+    font-size: 170%;
+    position: absolute;
+    font-family: Pixel;
+    left: 100%;
+    top: 106%;
+    transform: translate(-50%, -50%);
+    text-shadow: 3px 3px #000000;
+    }
