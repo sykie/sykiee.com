@@ -10,63 +10,78 @@ body {
   background-repeat: no-repeat;
 }
 
+.background {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border: 2.5px solid #ffffff;
+  line-height: 0;
+}
+
 .sykiee {
   color: #ffffff;
   position: absolute;
-  left: 13%;
-  font-family: Pixel;
-  top: 5.5%;
-  transform: translate(-50%, -50%);
-  font-size: 14px;
-  text-shadow: 2px 2px #000000;
-}
-
-.supreme {
-  position: fixed;
-  border: 2px solid #ffffff;
+  font: italic bold 60px Arial;
   left: 50%;
-  top: 50%;
+  top: 38%;
   transform: translate(-50%, -50%);
-  line-height: 0;
-}
-
-.supreme2 {
-  position: fixed;
-  border: 1px solid #ffffff;
-  left: 90%;
-  top: 105%;
-  transform: translate(-50%, -50%);
-  line-height: 0;
-}
-
-a:link, a:visited {
-  text-decoration: none;
-  color: inherit;
-}
-  
-a:hover {
-  text-decoration: none;
-  color: #bbbbbb;
-}
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
 
 .link1 {
   color: #ffffff;
-  font-size: 170%;
   position: absolute;
-  font-family: Pixel;
-  left: 79%;
-  top: 109%;
+  font: italic bold 25px Arial;
+  left: 42.5%;
+  top: 58%;
   transform: translate(-50%, -50%);
-  text-shadow: 3px 3px #000000;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
   }
 
   .link2 {
     color: #ffffff;
-    font-size: 170%;
     position: absolute;
-    font-family: Pixel;
-    left: 100%;
-    top: 109%;
+    font: italic bold 25px Arial;
+    left: 50%;
+    top: 58%;
     transform: translate(-50%, -50%);
-    text-shadow: 3px 3px #000000;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
     }
+
+  .link3 {
+    color: #ffffff;
+    position: absolute;
+    font: italic bold 25px Arial;
+    left: 57%;
+    top: 58%;
+    transform: translate(-50%, -50%);
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+    
+  a:hover {
+    text-decoration: none;
+    color: #bbbbbb;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff;
+    }
+    to {
+      text-shadow: 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff;
+    }
+  }
