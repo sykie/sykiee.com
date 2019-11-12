@@ -5,17 +5,14 @@
 @font-face { font-family: Pixel; src: url('fonts/VT323-Regular.ttf')}
 
 body {
-  background: #000000;
+  background: #ffe4e1;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .background {
   position: absolute;
-  display: block;
   transform: translate(-50%, -50%);
-  width: 40%;
-  height: 65%;
   left: 50%;
   top: 50%;
   border: 2.5px solid #ffffff;
@@ -27,7 +24,7 @@ body {
   position: absolute;
   font: italic bold 60px Arial;
   left: 50%;
-  top: 38%;
+  top: 36%;
   transform: translate(-50%, -50%);
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -39,7 +36,7 @@ body {
   position: absolute;
   font: italic bold 25px Arial;
   left: 42.5%;
-  top: 58%;
+  top: 62%;
   transform: translate(-50%, -50%);
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -51,7 +48,7 @@ body {
     position: absolute;
     font: italic bold 25px Arial;
     left: 50%;
-    top: 58%;
+    top: 62%;
     transform: translate(-50%, -50%);
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -63,7 +60,7 @@ body {
     position: absolute;
     font: italic bold 25px Arial;
     left: 57%;
-    top: 58%;
+    top: 62%;
     transform: translate(-50%, -50%);
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -82,9 +79,9 @@ body {
   
   @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff;
+      text-shadow: 0 0 20px #ffe4e1, 0 0 30px #ffe4e1;
     }
     to {
-      text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
+      text-shadow: 0 0 10px #ffe4e1, 0 0 20px #ffe4e1;
     }
   }
