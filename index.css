@@ -35,7 +35,7 @@ body {
   color: #ffffff;
   position: absolute;
   font: italic bold 25px Arial;
-  left: 42.5%;
+  left: 40%;
   top: 62%;
   transform: translate(-50%, -50%);
   -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -47,7 +47,7 @@ body {
     color: #ffffff;
     position: absolute;
     font: italic bold 25px Arial;
-    left: 50%;
+    left: 46.4%;
     top: 62%;
     transform: translate(-50%, -50%);
     -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -59,13 +59,25 @@ body {
     color: #ffffff;
     position: absolute;
     font: italic bold 25px Arial;
-    left: 57%;
+    left: 53%;
     top: 62%;
     transform: translate(-50%, -50%);
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
   }
+
+  .link4 {
+    color: #ffffff;
+    position: absolute;
+    font: italic bold 25px Arial;
+    left: 59%;
+    top: 62%;
+    transform: translate(-50%, -50%);
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    }
 
   a:link, a:visited {
     text-decoration: none;
@@ -74,14 +86,14 @@ body {
     
   a:hover {
     text-decoration: none;
-    color: #bbbbbb;
+    color: #ffe4e1;
   }
   
   @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 25px #ffe4e1;
+      text-shadow: 0 0 25px #ffe4e1, 0 0 35px #000000;
     }
     to {
-      text-shadow: 0 0 15px #ffe4e1;
+      text-shadow: 0 0 15px #ffe4e1, 0 0 25px #000000;
     }
   }
