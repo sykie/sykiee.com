@@ -1,67 +1,62 @@
 @font-face { font-family: Blonde; src: url('fonts/Blonde.ttf'); }
-@font-face { font-family: Boytoy; src: url('fonts/Boytoy.ttf'); }
 
 body {
-  background: #000000;
+  background: #eeeeee;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.traves {
+.main {
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
   top: 50%;
-  border: 2.5px solid #ffffff;
   line-height: 0;
 }
 
 .sykiee {
-  color: #ffffff;
+  color: #66023c;
   position: absolute;
-  font: bold 55px Blonde;
+  font: 75px Blonde;
   left: 50%;
-  top: 31%;
+  top: 25%;
   transform: translate(-50%, -50%);
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
   }
 
 .link1 {
-  color: #ffffff;
+  color: #920155;
   position: absolute;
-  font: bold 15px Blonde;
-  left: 44.2%;
-  top: 64.8%;
+  font: 15px Blonde;
+  left: 44.1%;
+  top: 66%;
   transform: translate(-50%, -50%);
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
   }
 
   .link2 {
-    color: #ffffff;
+    color: #920155;
     position: absolute;
-    font: bold 15px Blonde;
-    left: 50.6%;
-    top: 64.8%;
+    font: 15px Blonde;
+    left: 50%;
+    top: 61%;
     transform: translate(-50%, -50%);
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
     }
 
   .link3 {
-    color: #ffffff;
+    color: #920155;
     position: absolute;
-    font: bold 15px Blonde;
-    left: 56.2%;
-    top: 64.8%;
+    font: 15px Blonde;
+    left: 49.7%;
+    top: 71%;
     transform: translate(-50%, -50%);
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  .link4 {
+    color: #920155;
+    position: absolute;
+    font: 15px Blonde;
+    left: 55.7%;
+    top: 66%;
+    transform: translate(-50%, -50%);
   }
 
   a:link, a:visited {
@@ -71,14 +66,5 @@ body {
     
   a:hover {
     text-decoration: none;
-    color: #ffe4e1;
-  }
-
-  @-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 5px #ffe4e1, 0 0 10px #ffe4e1;
-    }
-    to {
-      text-shadow: 0 0 10px #ffe4e1, 0 0 5px #ffe4e1;
-    }
+    color: #eeeeee;
   }
