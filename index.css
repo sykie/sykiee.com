@@ -1,7 +1,5 @@
-@font-face { font-family: Blonde; src: url('fonts/Blonde.ttf'); }
-
 body {
-  background: #eeeeee;
+  background-color: #000000;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -11,60 +9,37 @@ body {
   transform: translate(-50%, -50%);
   left: 50%;
   top: 50%;
+  border: 2px solid #ffffff;
   line-height: 0;
 }
 
-.sykiee {
-  color: #66023c;
-  position: absolute;
-  font: 75px Blonde;
-  left: 50%;
-  top: 25%;
-  transform: translate(-50%, -50%);
-  }
-
 .link1 {
-  color: #920155;
   position: absolute;
-  font: 15px Blonde;
-  left: 44.1%;
-  top: 66%;
+  left: 5%;
+  top: 90%;
   transform: translate(-50%, -50%);
-  }
+}
 
   .link2 {
-    color: #920155;
     position: absolute;
-    font: 15px Blonde;
-    left: 50%;
-    top: 61%;
+    left: 10%;
+    top: 90%;
     transform: translate(-50%, -50%);
-    }
+}
 
   .link3 {
-    color: #920155;
     position: absolute;
-    font: 15px Blonde;
-    left: 49.7%;
-    top: 71%;
+    left: 15%;
+    top: 90%;
     transform: translate(-50%, -50%);
-  }
-
-  .link4 {
-    color: #920155;
-    position: absolute;
-    font: 15px Blonde;
-    left: 55.7%;
-    top: 66%;
-    transform: translate(-50%, -50%);
-  }
+}
 
   a:link, a:visited {
     text-decoration: none;
     color: inherit;
-  }
+}
     
   a:hover {
     text-decoration: none;
     color: #eeeeee;
-  }
+}
