@@ -5,8 +5,7 @@ body {
 }
 
 .background {
-  position: absolute;
-  transform: translate(-50%, -50%);
+  position: fixed;
   height: 100%;
   width: 100%;
 }
