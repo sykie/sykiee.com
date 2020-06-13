@@ -13,7 +13,7 @@ body {
 .sykiee {
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 27%;
+  top: 28.5%;
   left: 50%;
 }
 
@@ -44,14 +44,4 @@ body {
   left: 56%;
   top: 72%;
   transform: translate(-50%, -50%);
-}
-
-a:link, a:visited {
-  text-decoration: none;
-  color: inherit;
-}
-    
-a:hover {
-  text-decoration: none;
-  color: #eeeeee;
 }
