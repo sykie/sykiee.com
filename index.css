@@ -19,21 +19,28 @@ body {
 
 .link1 {
   position: absolute;
-  left: 44%;
+  left: 42.4%;
   top: 60%;
   transform: translate(-50%, -50%);
 }
 
 .link2 {
   position: absolute;
-  left: 50%;
+  left: 47.4%;
   top: 60%;
   transform: translate(-50%, -50%);
 }
 
 .link3 {
   position: absolute;
-  left: 56%;
-  top: 60.4%;
+  left: 52.4%;
+  top: 60.1%;
+  transform: translate(-50%, -50%);
+}
+
+.link4 {
+  position: absolute;
+  left: 57.7%;
+  top: 60%;
   transform: translate(-50%, -50%);
 }
