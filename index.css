@@ -9,13 +9,19 @@ body {
 }
 
 #background {
-  position: absolute;
+  position: fixed;
   height: 100%;
   width: 100%;
 }
 
+.container {
+max-width: 960px;
+margin: 0;
+}
+
 .sykiee {
   position: absolute;
+  max-width: 100%;
   transform: translate(-50%, -50%);
   top: 45%;
   left: 50%;
@@ -23,6 +29,8 @@ body {
 
 .link1 {
   position: absolute;
+  max-width: 100%;
+  height: auto;
   left: 42.4%;
   top: 60%;
   transform: translate(-50%, -50%);
@@ -30,6 +38,8 @@ body {
 
 .link2 {
   position: absolute;
+  max-width: 100%;
+  height: auto;
   left: 47.4%;
   top: 60%;
   transform: translate(-50%, -50%);
@@ -37,6 +47,8 @@ body {
 
 .link3 {
   position: absolute;
+  max-width: 100%;
+  height: auto;
   left: 52.4%;
   top: 60.1%;
   transform: translate(-50%, -50%);
@@ -44,6 +56,8 @@ body {
 
 .link4 {
   position: absolute;
+  max-width: 100%;
+  height: auto;
   left: 57.7%;
   top: 60%;
   transform: translate(-50%, -50%);
