@@ -1,10 +1,14 @@
 body {
-  background-color: #000000;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.background {
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#background {
   position: fixed;
   height: 100%;
   width: 100%;
